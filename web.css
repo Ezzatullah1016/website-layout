@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.container {
+    width: 100%; /* Adjust as per your design */
+    max-width: 960px; /* Example of setting a maximum width */
+    height: auto; /* Adjust as per your design */
+    border: 2px solid black;
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+header {
+    height: 150px;
+    border: 2px solid blue;
+    background-color: #0093AE;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border: 2px solid green;
+    float: left;
+    margin-top: 25px;
+    margin-left: 20px; /* Adjust margin as needed */
+    background-color:#0093AE;
+
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    cursor:auto;
+}
+
+nav {
+    /* Add styles for your navigation */
+    border: 1px solid red; /* Example border color for navigation */
+    clear: both; /* Clear floats */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: chartreuse;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 50px; /* Adjust spacing between navigation items */
+    position: relative;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black; /* Adjust link color */
+}
+.slider{
+    width: 100%;
+    height: 200px;
+    border: 2px solid aqua;
+}
+section {
+    width: 60%;
+    height: 1000px;
+    border: 2px solid red;
+    float: left;
+    
+}
+aside {
+    width: 40%;
+    height: 1000px;
+    border: 2px solid rgb(18, 59, 54);
+    float: left;
+
+}
+footer{
+    width: 100%;
+    height: 200px;
+    border: 2px solid purple;
+    float: left;
+
+
+}
+footer img{
+    width: 100%;
+    height: 100%;
+
+}
